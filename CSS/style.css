@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#b1{
+    border:2px solid red;
+    height:150px;
+    width:150px;
+    padding: 5px;
+    margin:5px;
+}
+.b3{
+    border:2px solid red;
+    width: 300px;
+    height: 210px;
+    padding: 5px;
+    margin-left: 500px;
+}
+h1
+{
+    text-align:center;
+    margin: 30px auto;
+}
+ol{
+    border:2px solid green;
+    display: inline;
+    margin:4px;
+    padding: 5px;
+}
+li{
+    border:2px solid red;
+    display: inline;
+    padding: 5px;
+}
