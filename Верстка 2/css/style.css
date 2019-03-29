@@ -45,127 +45,45 @@ a2{
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 300px;
     width: 125px;
     height: 355px;
 }
-#b1{
+.b1{
     border-bottom: 3px solid gray;
     position: relative;
     width: 200px;
-    left:500px;
+    left:675px;
     bottom:300px;
     margin: 5px;
     font-size: 20px;
     font-weight: bold;
 }
-#b6{
+.b6{
     position: relative;
     width: 200px;
-    left:500px;
+    left:675px;
     bottom:300px;
     margin: 5px;
     font-size: 15px;
 }
-#b7{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
+
 #b8{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
-#b9{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
-#b10{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
-#b11 {
-    border-bottom: 3px solid gray;
-    position: relative;
-    width: 200px;
-    left: 500px;
-    bottom: 300px;
-    margin: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 25px;
-}
-#b12{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
-
-#b13{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
-#b14{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
-
-#b15{
-    position: relative;
-    width: 200px;
-    left:500px;
-    bottom:300px;
-    margin: 5px;
-    font-size: 15px;
-}
-#b16{
     border-bottom: 3px solid gray;
     position: relative;
     width: 500px;
     bottom: 200px;
-    margin-left: 240px;
+    margin-left: 390px;
     font-size: 20px;
     font-weight: bold;
 }
-#b17{
+.b7{
     position: relative;
     width: 500px;
-    left:240px;
+    left:390px;
     bottom:200px;
     font-size: 20px;
     font-weight:normal;
-}
-#b18{
-    position: relative;
-    width: 500px;
-    left:240px;
-    bottom:190px;
 }
 .margin{
     margin: 0 200px 0;
@@ -180,7 +98,7 @@ a2{
     height: 100px;
     border: 2px solid magenta;
     position: relative;
-    left:200px;
+    left:350px;
     bottom:920px;
     border-radius: 100px;
 
