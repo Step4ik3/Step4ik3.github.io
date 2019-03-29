@@ -45,7 +45,7 @@ a2{
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 30px;
-    margin-left: 300px;
+    margin-left: 150px;
     width: 125px;
     height: 355px;
 }
@@ -53,7 +53,7 @@ a2{
     border-bottom: 3px solid gray;
     position: relative;
     width: 200px;
-    left:675px;
+    left:525px;
     bottom:300px;
     margin: 5px;
     font-size: 20px;
@@ -62,7 +62,7 @@ a2{
 .b6{
     position: relative;
     width: 200px;
-    left:675px;
+    left:525px;
     bottom:300px;
     margin: 5px;
     font-size: 15px;
@@ -73,14 +73,14 @@ a2{
     position: relative;
     width: 500px;
     bottom: 200px;
-    margin-left: 390px;
+    margin-left: 250px;
     font-size: 20px;
     font-weight: bold;
 }
 .b7{
     position: relative;
     width: 500px;
-    left:390px;
+    left:250px;
     bottom:200px;
     font-size: 20px;
     font-weight:normal;
