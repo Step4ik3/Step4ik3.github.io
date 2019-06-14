@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 4200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+header {
+    width: 100%;
+    height: 1100px;
+    background: url(../img/Baldhead23.png) no-repeat;
+    /*-moz-background-size: 100%;*/
+    /*-webkit-background-size: 100%;*/
+    /*-o-background-size: 100%;*/
+    background-size: cover;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+
+    font-family: AWConqueror Std Didot, Regural;
+    font-size: 47.2px;
+    color: white;
+}
+
+p, h3 {
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.layout__head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.menu__desktop {
+}
+
+.menulist {
+    width: 100%;
+    max-width: 550px;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+
+.item {
+    font-family: tahoma, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 10px 20px;
+
+}
+
+.item:hover {
+    transition: all .8s;
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 2px solid #FF6F61;
+    border-radius: 5px;
+
+
+}
+
+.head__info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+.info {
+    margin-top: 35px;
+    width: 820px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Futura Bk BT, Demi;
+    font-size: 15px;
+    font-weight: unset;
+}
+
+.button__info {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.item__mobile {
+    display: flex;
+    align-items: center;
+    font-family: tahoma, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.button {
+    width: 202px;
+    height: 54px;
+    border: 2px solid #FF6F61;
+    background-color: #9ECED8;
+    white-space: nowrap;
+    color: white;
+    font-family: Futura Bk BT, Demi;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.button:hover {
+    transition: all .8s;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #FF6F61;
+    background-color: #FF6F61;
+}
+
+#menulist__item__mobile {
+    display: none;
+    position: fixed;
+}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+        position: relative;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logohead {
+        position: relative;
+    }
+
+    .menu__desktop {
+        display: block;
+        cursor: pointer;
+    }
+
+    #menulist__item__mobile {
+        overflow: hidden;
+        background: url(../img/Baldhead.png) no-repeat;
+        position: relative;
+    }
+
+    .line {
+        width: 30px;
+        height: 2px;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+
+    #menulist__item__mobile {
+        display: block;
+        transform: translate(0, 0);
+        transition: all .2s ease-in-out;
+        overflow-y: scroll;
+        z-index: 0;
+        flex-direction: column;
+    }
+
+    .menulist {
+        display: none;
+    }
+
+    #menulist__item__mobile {
+        display: none;
+    }
+
+    .head__info {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .info {
+        width: 350px;
+        text-align: center;
+        color: white;
+    }
+
+}
+
+#Mehr__Infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Mehr__title {
+    color: black;
+    margin-bottom: 60px;
+}
+
+.Mehr__Text {
+    font-family: Futura Bk BT, Demi;
+    width: 921px;
+    display: flex;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+#face {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.face1 {
+    width: 80px;
+    height: 80px;
+    margin: 0 20px;
+
+
+}
+
+.face3 {
+
+    width: 80px;
+    height: 80px;
+
+    margin: 0 20px;
+}
+
+.face2 {
+    width: 80px;
+    height: 80px;
+    transform: scale(1.4);
+    transition: .5s;
+    margin: 0 20px;
+}
+
+.Mehr__face__text {
+    font-family: Futura Bk BT, Demi;
+    margin-top: 40px;
+    width: 510px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    line-height: 34px;
+}
+
+.button__face {
+    width: 202px;
+    height: 54px;
+    border: 2px solid #FF6F61;
+    background-color: white;
+    white-space: nowrap;
+    color: black;
+    font-family: Futura Bk BT, Demi;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+
+.button__face:hover {
+    transition: all .8s;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #FF6F61;
+    background-color: #FF6F61;
+}
+
+.face1:active {
+    transform: scale(1.4);
+    transition: .5s;
+}
+
+.face2:active {
+    transform: scale(1.4);
+    transition: .5s;
+}
+
+.face3:active {
+    transform: scale(1.4);
+    transition: .5s;
+}
+
+@media screen and (max-width: 720px) {
+    .Mehr__Text {
+        width: 350px;
+        text-align: center;
+    }
+
+    .Mehr__face__text {
+        width: 350px;
+        text-align: center;
+    }
+}
+
+.Use {
+    width: 100%;
+    height: 1000px;
+    background: url(../img/Sand.png) no-repeat;
+    /*-moz-background-size: 100%;*/
+    /*-webkit-background-size: 100%;*/
+    /*-o-background-size: 100%;*/
+    background-size: cover;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+#Ablauff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main__Info {
+    font-family: AWConqueror Std Didot, Demi;
+    width: 412px;
+    font-size: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 92px;
+}
+
+.Kostenlos {
+    font-family: Futura Bk BT, Demi;
+    width: 270px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    line-height: 34px;
+    margin-left: 40px;
+
+}
+
+.Help1 {
+    position: relative;
+    top: 150px;
+    z-index: 0;
+    width: 50%;
+}
+
+.Gespräch {
+    font-family: Futura Bk BT, Demi;
+    width: 270px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    line-height: 34px;
+
+
+}
+
+.Gespräch__Info {
+    margin-bottom: 130px;
+}
+
+.Help2 {
+    position: relative;
+    left: 370px;
+    bottom: 270px;
+    z-index: 0;
+
+}
+
+.Help3 {
+    position: relative;
+    left: 200px;
+    bottom: -100px;
+    z-index: 0;
+
+}
+
+@media screen and (max-width: 720px) {
+    #Ablauff {
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .Main__Info {
+        width: 350px;
+        margin: 0;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Help1 {
+        display: none;
+    }
+
+    .Help2 {
+        display: none;
+    }
+
+    .Help3 {
+        display: none;
+    }
+
+    .Kostenlos {
+        font-size: 10px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .Gespräch {
+        font-size: 10px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+#client__card {
+    width: 100%;
+    font-family: Futura Bk BT, Demi;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 69px;
+}
+
+.card1 {
+    box-shadow: 0 0 21px;
+    width: 323px;
+    height: 417px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.James__Info {
+    margin-top: 72px;
+    width: 276px;
+    text-align: center;
+    size: 12px
+}
+
+.card__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mehr {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card2 {
+    width: 323px;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: -35px 5px;
+    box-shadow: 0 0 21px;
+}
+
+@media screen and (max-width: 720px) {
+    .card1 {
+        margin: 50px 0;
+    }
+}
+
+.sea__info {
+    width: 100%;
+    height: 900px;
+    background: url(../img/Water1.png) no-repeat;
+    /*-moz-background-size: 100%;*/
+    /*-webkit-background-size: 100%;*/
+    /*-o-background-size: 100%;*/
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sea__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.last__button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.button2 {
+    width: 202px;
+    height: 54px;
+    border: 2px solid #FF6F61;
+    background-color: #1B5D78;
+    white-space: nowrap;
+    color: white;
+    font-family: Futura Bk BT, Demi;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 0 20px
+}
+
+.button2:hover {
+    transition: all .8s;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #FF6F61;
+    background-color: #FF6F61;
+}
+
+@media screen and (max-width: 720px) {
+    .sea__logo {
+        width: 350px;
+    }
+
+
+    .last__button {
+        width: 350px;
+    }
+}
